@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Photos</string>
+    <string name="create_album">Create Album</string>
+    <string name="album_name">Album Name</string>
+    <string-array name="album_options_array">
+        <item>Open</item>
+        <item>Rename</item>
+        <item>Delete</item>
+    </string-array>
+    <string name="image">Image</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="left"><![CDATA[<]]></string>
+    <string name="right"><![CDATA[>]]></string>
+    <string name="add_tag">Add Tag</string>
+    <string name="move_photo">Move Photo</string>
+    <string name="search">Search</string>
+    <string-array name="photo_options_array">
+        <item>Display</item>
+        <item>Remove</item>
+    </string-array>
+    <string name="title_activity_search">Search</string>
+</resources>

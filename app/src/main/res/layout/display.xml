@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Display">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/left_button"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:text="@string/left" />
+
+        <Button
+            android:id="@+id/right_button"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:text="@string/right" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/add_tag_button"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:text="@string/add_tag" />
+
+        <Button
+            android:id="@+id/move_photo_button"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:text="@string/move_photo" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/displayed_photo"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:contentDescription="@string/image" />
+
+    <ListView
+        android:id="@+id/tags_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
